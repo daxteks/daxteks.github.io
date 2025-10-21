@@ -1,0 +1,22 @@
+body{
+    color: #444;
+    background-color: #EEE;
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6em;
+    font-size: 18px;
+    padding: 0;
+    font-family: Comic Sans MS, Arial, Helvetica, sans-serif;
+    animation: myAnimation 4s;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-name: poopButt;
+}
+
+@keyframes poopButt {
+  0%   {color:red; left:0px; top:0px;}
+  0%   {background-color: lightgray;}
+  0%   {font-size: 20px}
+  50%  {color:black; left:200px; top:0px;}
+  50%  {background-color: #EEE; left:200px; top:0px;}
+}
