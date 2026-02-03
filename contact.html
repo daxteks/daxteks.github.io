@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="style.css">
+        <title>Contact Form</title>
+        <link rel="icon" type="image/x-icon" href="pics/favicon.jpg">
+    </head>
+<body>
+<nav class="navbar">
+  <img class="logo"  <img src="pics/favicon.jpg">
+  <ul>
+    <li><a href="index.html"><b>HOME</b></a></li>
+    <li><a href="about.html"><b>ABOUT</b></a></li>
+    <li><a href="contact.html"><b>CONTACT</b></a></li>
+  </ul>
+</nav>
+
+<div class="contact-container">
+  <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+    <div class="contact-left-title">
+      <h2>CONTACT ME</h2>
+      <p> Got an idea for a project? Send a message below!</p>
+      <hr>
+    </div>
+    <input type="hidden" name="access_key" value="70855b98-8b2f-4b66-9bba-f206fac06d1a">
+    <input type="text" name="name" placeholder="Your Name*" required>
+    <input type="email" name="email" placeholder="Your Email*" required>
+    <textarea name="message" rows="20" placeholder="Your Message*" required></textarea>
+    <button class ="button" type="submit">
+      <span>Send Message</span>
+    </button>
+  </form>
+  <div class="contact-right">
+</div>
+
+
+</body>
