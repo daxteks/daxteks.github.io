@@ -3,36 +3,100 @@
     <head>
         <meta charset="UTF-8"/>
         <link rel="stylesheet" href="style.css">
-        <title>Contact Form</title>
-        <link rel="icon" type="image/x-icon" href="pics/favicon.jpg">
+        <title>Photography Portfolio EPQ</title>
+        <link rel="icon" type="image/x-icon" href="logos/favicon.jpg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     </head>
+    
 <body>
+<div class="side-title">
+  <h1>CONTACT</h1>
+</div>
+
 <nav class="navbar">
-  <img class="logo"  <img src="pics/favicon.jpg">
+  <a href="index.html"><img class="logo" src="logos/favicon.jpg" alt="Logo"></a>
   <ul>
-    <li><a href="index.html"><b>HOME</b></a></li>
-    <li><a href="about.html"><b>ABOUT</b></a></li>
-    <li><a href="contact.html"><b>CONTACT</b></a></li>
+    <li><a href="index.html"><p>HOME</p></a></li>
+    <li><a href="about.html"><p>ABOUT</p></a></li>
+    <li><a href="gear.html"><p>GEAR</p></a></li>
+    <li><a class="active" href="contact.html"><p>CONTACT</p></a></li>
   </ul>
 </nav>
 
+<section class="contact-hero">
+  <img src="pics/scotland-train-mountain.JPG">
+  <div class="overlay-text">
+    <h1>REACH OUT</h1>
+  </div>
+</section>
+
+<main>
 <div class="contact-container">
-  <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
-    <div class="contact-left-title">
-      <h2>CONTACT ME</h2>
-      <p> Got an idea for a project? Send a message below!</p>
-      <hr>
+  <div class="contact-wrapper">
+    <div class="contact-info-sidebar">
+      <h1><b>CONTACT ME</b></h1>
+      <p><b>E-MAIL:</b></p>
+      <p>daxtek100@gmail.com</p>
+      <p><b>PHONE:</b></p>
+      <p>+44 7943323823</p>
+      <p>Follow me on social media:</p>
+      <div class="social-links">
+        <a href="https://instagram.com/daxtek" target="_blank">
+          <img src="logos/insta-dark.svg" alt="Instagram Icon">
+        </a>
+        <a href="https://linkedin.com/in/dax-tek-2087a03a9/" target="_blank">
+          <img src="logos/linkedin.svg" alt="LinkedIn Icon">
+        </a>
+      </div>
+      <p><b>LOCATION:</b></p>
+      <p>Baldock, Hertfordshire, England</p>
     </div>
-    <input type="hidden" name="access_key" value="70855b98-8b2f-4b66-9bba-f206fac06d1a">
-    <input type="text" name="name" placeholder="Your Name*" required>
-    <input type="email" name="email" placeholder="Your Email*" required>
-    <textarea name="message" rows="20" placeholder="Your Message*" required></textarea>
-    <button class ="button" type="submit">
-      <span>Send Message</span>
-    </button>
-  </form>
-  <div class="contact-right">
+    <div class="contact-form-container">
+      <form action="https://api.web3forms.com/submit" method="POST" class="contact">
+        <div class="contact-title">
+          <p><b>Feel free to get in touch for projects, collaborations, or just to say hi!</b></p>
+          <hr>
+        </div>
+        <input type="hidden" name="access_key" value="70855b98-8b2f-4b66-9bba-f206fac06d1a">
+        <input type="text" name="name" placeholder="Your Name*" required>
+        <input type="email" name="email" placeholder="Your Email*" required>
+        <textarea name="message" rows="20" placeholder="Your Message*" required></textarea>
+        <button class="button" type="submit">
+          <span>Send Message</span>
+        </button>
+      </form>
+    </div>
+  </div>
 </div>
+</main>
 
 
+<footer class="footer">
+<div class="footer-columns">
+  <div class="col-1">
+    <h3>USEFUL LINKS</h3>
+    <a href="about.html">About</a>
+    <a href="gear.html">Gear</a>
+    <a href="contact.html">Contact Form</a>
+  </div>
+
+  <div class="col-2">
+    <h3>NEWSLETTER:</h3>
+    <p>I'll send you some cool stuff from time to time!</p>
+    <form class="newsletter-form">
+      <input type="email" placeholder="email address">
+      <button type="submit">Subscribe!</button>
+    </form>
+  </div>
+
+  <div class="col-3">
+    <h3>CONTACT</h3>
+    <p>39 Sale Drive SG7 6NS <br> Baldock, Hertfordshire, England</p>
+  </div>
+
+</div>
+</footer>
 </body>
+</html>

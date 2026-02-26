@@ -4,14 +4,82 @@
         <meta charset="UTF-8"/>
         <link rel="stylesheet" href="style.css">
         <title>Photography Portfolio EPQ</title>
-        <link rel="icon" type="image/x-icon" href="pics/favicon.jpg">
+        <link rel="icon" type="image/x-icon" href="logos/favicon.jpg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     </head>
+
 <body>
+<div class="side-socials">
+  <a href="https://instagram.com/daxtek" target="_blank">
+    <img src="logos/insta-dark.svg" alt="Instagram Icon" class="insta-icon">
+    <b>INSTAGRAM</b>
+  </a>
+  <a href="https://www.linkedin.com/in/dax-tek-2087a03a9/" target="_blank">
+    <img src="logos/linkedin.svg" alt="LinkedIn Icon" class="linkedin-icon">
+    <b>LINKEDIN</b>
+  </a>
+</div>
+<div class="side-title">
+  <h1>ABOUT ME</h1>
+</div>
 <nav class="navbar">
-  <img class="logo"  <img src="pics/favicon.jpg">
+  <a href="index.html"><img class="logo" src="logos/favicon.jpg" alt="Logo"></a>
   <ul>
-    <li><a href="index.html"><b>HOME</b></a></li>
-    <li><a href="about.html"><b>ABOUT</b></a></li>
-    <li><a href="contact.html"><b>CONTACT</b></a></li>
+    <li><a href="index.html"><p>HOME</p></a></li>
+    <li><a class="active" href="about.html"><p>ABOUT</p></a></li>
+    <li><a href="gear.html"><p>GEAR</p></a></li>
+    <li><a href="contact.html"><p>CONTACT</p></a></li>
   </ul>
 </nav>
+
+
+<main>
+  <section class="about-section">
+    <div class="about-portrait">
+      <img src="pics/dax-tek.JPG" alt="Dax Tek Portrait">
+    </div>
+
+    <div class="about-text">
+      <p class="lead"> I'm Dax Tekchandani, a UK-based photographer, focused on capturing landscapes, travel scenes,
+        and the history of forgotten places.</p>
+      <p>My work centres around scale, light, and atmosphere. I aim to capture minimalism within my compositions, using simplicity,
+        a general a lack of people, and natural lighting to create images with intentional mood and tell parts of a story.</p>
+      <p>Through this EPQ project website, I've explored how technical decisions such as whitespace, composition, and colour
+        pallettes can be used to properly display my work and create an engaging user experience. 
+        I hope you enjoy browsing my portfolio!</p>
+      </p>
+    </div>
+  </section>
+</main>
+
+
+<footer class="footer">
+<div class="footer-columns">
+  <div class="col-1">
+    <h3>USEFUL LINKS</h3>
+    <a href="about.html">About</a>
+    <a href="gear.html">Gear</a>
+    <a href="contact.html">Contact Form</a>
+  </div>
+
+  <div class="col-2">
+    <h3>NEWSLETTER:</h3>
+    <p>I'll send you some cool stuff from time to time!</p>
+    <form class="newsletter-form">
+      <input type="email" placeholder="email address">
+      <button type="submit">Subscribe!</button>
+    </form>
+  </div>
+
+  <div class="col-3">
+    <h3>CONTACT</h3>
+    <p>39 Sale Drive SG7 6NS <br> Baldock, Hertfordshire, England</p>
+  </div>
+
+</div>
+</footer>
+
+</body>
+</html>
